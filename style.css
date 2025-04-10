@@ -219,15 +219,15 @@ body {
 
 .partners-logo{
     display: flex;
-    gap: 3%;
+    /* gap: %; */
     margin-left: 6%;
     height: 80%;
     padding-bottom: 5%;
    
 }
 .partners-logo img{
-    width: 50%;
-    height: 10%;
+    /* width: 50%; */
+    /* height: 10%; */
     padding-top: 5%;
       
 }
@@ -377,6 +377,9 @@ font-size: 3em;
             flex-direction: column;
         }
         .techniques-content{
+            flex-direction: column;
+        }
+        .partners-logo{
             flex-direction: column;
         }
 
