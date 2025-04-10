@@ -1,0 +1,386 @@
+*{
+    margin:0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    font-size: 1.4em;
+}
+
+.top-part {
+    background-color: rgb(121, 214, 121);
+    width: 100%;
+    height: 50px;
+}
+.top-part p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.about-us h1{
+    text-align: center;
+    color:white;
+    font-size: 4em;
+    margin-top: 8%;
+}
+.about-us p{
+    text-align: center;
+    padding-left: 28%;
+
+}
+.about-us button{
+    margin-left: 50%;
+    width: 13%;
+    height: 55px;
+    margin-top: 20px;
+    font-weight: bolder;
+    border-radius: 5%;
+    background-color: rgb(201, 184, 184);
+    color: white;
+    border: none;
+    margin-left: 45%;
+}
+.introduction {
+    background-image: url('Images/Rasi-prints.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.top-navigation p {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    margin-left: 5%;
+    padding-top: 1%;
+
+}
+
+.top-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 5%;
+    margin-left: 15%;
+    margin-top: -2%;
+    color: white;
+
+}
+#acknowledgement{
+    background-color: white;
+    height: 100px;
+    border: solid 2px;
+    border-color: gray;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1.2%;
+    margin-top: 2%;
+    color: gray;
+}
+.rasi-description{
+    display: flex;
+    gap: 5%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+.sofa-design-image img{
+    height: 700px;
+    width: 800px;
+}
+ .description-content p{
+    color: rgb(148, 140, 140);
+ }
+.description-content a{
+    color: rgb(76, 180, 76);
+    text-decoration: none;
+
+}
+
+#knowMore{
+   margin-top: 45px;
+    width: 35%;
+    height: 60px;
+    border: none;
+    background-color: rgb(126, 240, 126);
+}
+#Contactus{
+    margin-top: 45px;
+    width: 35%;
+    height: 60px;
+    border: none;
+    margin-left: 8%;
+}
+.fa-square-arrow-up-right{
+    color: white;
+}
+.fa-square-arrow-up-right{
+    color: white;
+}
+.our-offers{
+    display: flex;
+    gap: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: rgb(182, 245, 182);
+    height: 40%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+}
+.our-offers img{
+    height: 3%;
+    width: 4%;
+    margin-left: 3%;
+}
+.technique-text h1{
+    text-align: center;
+    font-size: 3em;
+}
+.technique-text p{
+    text-align: center;
+}
+.print-techniques{
+    margin-top: 13%;
+    margin-bottom: 10%;
+}
+
+.print-techniques h1{
+    align-items: center;
+
+}
+.print-techniques p{
+    color: gray;
+    align-items: center;
+}
+.techniques-content{
+    display: flex;
+    gap: 1.8%;
+    margin-left: 5%;
+    margin-right: 1%;
+    img{
+        width:550px;
+        height:650px;
+        border-radius: 4%;
+        margin-top: 7%;
+    }
+}
+.acclaim h1{
+    text-align: center;
+    font-size: 3em;
+}
+.acclaim p{
+    text-align: center;
+    color: gray;
+}
+.garment-industry{
+    display: flex;
+    gap: 4%;
+}
+.logo{
+    display: flex;
+    margin-top: 5%;  
+    margin-left: 5%;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 15px 15px -10px grey;
+    padding: 2% 4%;
+    border-radius: 10px;
+}
+   .logo img{
+        height: 80px;
+        width: 30%; 
+    }
+
+.Rise-rating{
+    display: flex;
+    margin-top: 5%;
+    gap: 9%;
+    margin-bottom: 6%;
+    height: 100%;
+    margin-left: 5%;
+}
+.Rise-rating p{
+    color: gray;
+}
+.Rise-rating-content img{
+    height: 14%;
+}
+.Rise-rating-content h1{
+    font-size: 2em;
+}
+
+.pillow img{
+    height: 100%;
+}
+
+.partners-logo{
+    display: flex;
+    max-width: 90%;
+    gap: 3%;
+    margin-left: 6%;
+    height: 80%;
+    padding-bottom: 5%;
+   
+}
+.partners-logo img{
+    width: 50%;
+    height: 10%;
+    padding-top: 5%;
+      
+}
+#brand5{
+    width: 21%;
+}
+#brand6{
+    padding-top: 7.5%;
+    width: 30%;
+}
+#brand3{
+    
+}
+#brand1{
+    width: 23%;
+}
+#brand2{
+    width: 25%;
+}
+#brand4{
+    width: 30%;
+}
+#brand7{
+    width: 30%;
+}
+.our-best-work {
+    background-color: rgb(245, 242, 242);
+}
+.our-best-work p{
+text-align: center;
+color: gray;
+}
+.our-best-work h1{
+    text-align: center;
+    font-size: 2.7em;
+}
+.our-best-work img{
+    gap: 10%;
+}
+.product-images{
+    margin-top: 3.5%;
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.product-images img{
+    height: 700px;
+    width: 550px;
+    margin-left: 1%;
+    border-radius: 3%;
+}
+.handcraft img{
+    margin-left: 6%;
+    width: 91%;
+    border-radius: 2%;
+}
+
+.reachout-content p{
+color: gray;
+text-align: center;
+}
+.reachout-content h1{
+font-size: 3em;
+    text-align: center;
+}
+.reachout-content img{
+    width: 92%;
+    margin-left:5%;
+}
+.reach-to-us{
+    margin-top: 8%;
+}
+.location{
+    background-image: url(Images/map.PNG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 89%;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    border-radius: 4%;
+    margin-top: 3%;
+    padding-top: 8%;
+    padding-left: 3%;
+
+}
+.contact-address {
+    background-color: white;
+    border: solid;
+    border-color: white;
+    width: 500px;
+    border-radius: 6%;
+    margin-left: 2.5%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    margin-bottom: 10%;
+  
+}
+.footer{
+    background-color: rgb(20, 19, 19);
+}
+
+.footer-container {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    gap: 3%;
+    margin-left: 5%;
+    
+}
+.footer-section{
+    margin-top: 6%;
+}
+.footer-container p {
+    color: gray;
+}
+.footer-section h3{
+    color: gray;
+
+}
+.footer-section img{
+    border-radius: 8%;
+
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 80px;
+    border-top: 1px solid rgba(80, 78, 78, 0.702);
+}
+.footer-bottom p {
+    color:gray;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width:600px) {
+    .rasi-description{
+        flex-direction:column;
+        img{
+            width:100%;
+        }
+        }
+        .our-offers{
+            flex-direction: column;
+        }
+        .techniques-content{
+            flex-direction: column;
+        }
+
+        
+}
+
